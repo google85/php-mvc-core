@@ -1,0 +1,16 @@
+{
+    "name": "google85/php-mvc-core",
+    "description": "PHP MVC - core package",
+    "authors": [
+        {
+            "name": "google85",
+            "email": "bpfcomp2005@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "google85\\phpmvc\\": "./"
+        }
+    },
+    "require": {}
+}
