@@ -24,4 +24,8 @@ class Form {
         return new InputField($model, $attribute);
     }
 
+    public function textareaField($model, $attribute) {
+        return new TextareaField($model, $attribute);
+    }
+
 }
