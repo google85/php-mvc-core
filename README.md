@@ -14,9 +14,11 @@ Video src: @https://www.youtube.com/watch?v=6ERdu4k62wI&
 
 #### Usage:
 
- -- As it is also pubblished on package list website, it must be installed via composer
-
-#### # composer require google85/mvc-core
+ - As it is also pubblished on package list website, it must be installed via composer
+ 
+ ```
+ $ composer require google85/mvc-core
+ ```
 
 
 # -------------------------------------------------------
