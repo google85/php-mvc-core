@@ -1,4 +1,4 @@
-# php-mvc-core   &nbsp;  <img src="https://img.shields.io/github/last-commit/google85/php-mvc-core/main?label=last%20update&style=plastic" alt="Last commit"/>&nbsp;<a href="https://packagist.org/packages/google85/php-mvc-core"><img src="https://img.shields.io/packagist/dt/google85/php-mvc-core?style=plastic&color=brightgreen" alt="Total Downloads"/></a>
+# php-mvc-core   &nbsp;  <img src="https://img.shields.io/packagist/v/google85/php-mvc-core?include_prereleases&style=plastic" alt="Last package version"/>&nbsp;<img src="https://img.shields.io/github/last-commit/google85/php-mvc-core/main?label=last%20update&style=plastic" alt="Last commit"/>&nbsp;<a href="https://packagist.org/packages/google85/php-mvc-core"><img src="https://img.shields.io/packagist/dt/google85/php-mvc-core?style=plastic&color=brightgreen" alt="Total Downloads"/></a>
 
 PHP MVC core package, based on TheCodeHolic's video
 
