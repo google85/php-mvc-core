@@ -1,6 +1,6 @@
-# php-mvc-core <a href="https://packagist.org/packages/google85/php-mvc-core"><img src="https://img.shields.io/packagist/dt/google85/php-mvc-core?color=brightgreen" alt="Total Downloads"/></a>
+# php-mvc-core   &nbsp;  <a href="https://packagist.org/packages/google85/php-mvc-core"><img src="https://img.shields.io/packagist/dt/google85/php-mvc-core?color=brightgreen" alt="Total Downloads"/></a>
 
-PHP MVC core repository, based on TheCodeHolic's video
+PHP MVC core package, based on TheCodeHolic's video
 
 Video src: @https://www.youtube.com/watch?v=6ERdu4k62wI&
 
@@ -24,10 +24,7 @@ Video src: @https://www.youtube.com/watch?v=6ERdu4k62wI&
  ```
  $ composer require google85/mvc-core
  ```
-
-
-# -------------------------------------------------------
-
+##
 ### Changelog:
 
 
