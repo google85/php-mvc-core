@@ -9,7 +9,7 @@ use google85\phpmvc\db\Database;
  * @author   google85 <bpfcomp2005@gmail.com>
  * @package  google85\phpmvc
  * 
- * WARNING: type property - requires PHP >= 7.4
+ * WARNING: if using type property - requires PHP >= 7.4
  *
  */
 class Application {
@@ -117,4 +117,5 @@ class Application {
     public function on($eventName, $callback) {
         $this->eventListeners[$eventName][] = $callback;
     }
+
 }

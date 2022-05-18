@@ -50,7 +50,7 @@ abstract class DbModel extends Model {
     }
 
     public function findOne($where) {   // [email => zura@gmail.com, firstname => zura]
-        $tableName = static::tableName();       //nu merge cu self:: pt ca e abstract si apartine de o clasa unde va fi definit
+        $tableName = static::tableName();       // usings static:: for abstract methods (doesn't work with self::) because it will be declared in a class where it belongs
         $attributes = array_keys($where);
         // SELECT * FROM $tableName WHERE email = :email AND firstname = :firstname
         $sql = implode("AND ",
@@ -69,4 +69,5 @@ abstract class DbModel extends Model {
         $statement->execute();
         return $statement->fetchObject(static::class);
     }
+
 }

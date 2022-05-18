@@ -21,9 +21,9 @@ class AuthMiddleware extends BaseMiddleware {
      * @param array $actions
      */
     public function __construct($actions = []) {
+        
         $this->actions = $actions;
     }
-
 
     public function execute() {
         if (Application::isGuest()) {
@@ -32,6 +32,5 @@ class AuthMiddleware extends BaseMiddleware {
             }
         }
     }
-
 
 }

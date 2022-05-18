@@ -12,6 +12,7 @@ use google85\phpmvc\exception\NotFoundException;
  *
  */
 class Router {
+
     public $request;                        //public Request $request;              //PHP >=7.4 - type property
     public $response;                       //public Response $response;            //PHP >=7.4 - type property
     protected $routes = [];                 //protected array $routes = [];         //PHP >=7.4
@@ -75,4 +76,5 @@ class Router {
     protected function renderOnlyView($view, $params) {
         return Application::$app->view->renderOnlyView($view, $params);
     }
+    
 }

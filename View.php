@@ -14,7 +14,7 @@ namespace google85\phpmvc;
  */
 class View {
 
-    public $title = '';                     //public string $title = '';
+    public $title = '';
 
     public function renderView($view, $params = []) {
         $viewContent = $this->renderOnlyView($view, $params);
@@ -41,11 +41,10 @@ class View {
     protected function renderOnlyView($view, $params) {
         // attaching variables to params
         foreach ($params as $key => $value) {
-            $$key = $value ;       // note $$ for name variable !
+            $$key = $value ;       // note the 2 $$ for name variable !
         }
         ob_start();
         include_once Application::$ROOT_DIR . "/views/$view.php";
         return ob_get_clean();
     }
-
 }

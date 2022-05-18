@@ -15,6 +15,8 @@ Video src: @https://www.youtube.com/watch?v=6ERdu4k62wI&
 
 - form models
 
+- migrations with methods for creating / running them
+
 #### Usage:
 
  - As it is also published on package list website, it must be installed via composer
@@ -33,6 +35,7 @@ Video src: @https://www.youtube.com/watch?v=6ERdu4k62wI&
     - added LICENSE file
     - also in composer.json
     - added badge of total downloads
+    - small fixes
               
 - 2022-03-11
     - added textareaField() method in Form
