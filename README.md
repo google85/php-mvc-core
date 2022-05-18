@@ -25,8 +25,9 @@ Video src: @https://www.youtube.com/watch?v=6ERdu4k62wI&
 
 ### Changelog:
 
-- 2022-03-11
-	- 19:00 - added textareaField() method in Form
+
+- 2022-05-18 - added license file
+- 2022-03-11 - added textareaField() method in Form
  
 
 
