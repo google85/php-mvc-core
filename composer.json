@@ -4,9 +4,11 @@
     "authors": [
         {
             "name": "google85",
-            "email": "bpfcomp2005@gmail.com"
+            "email": "bpfcomp2005@gmail.com",
+            "role": "Developer"
         }
     ],
+    "license": "Unlicense"
     "autoload": {
         "psr-4": {
             "google85\\phpmvc\\": "./"
