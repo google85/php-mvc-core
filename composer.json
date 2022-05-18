@@ -8,7 +8,7 @@
             "role": "Developer"
         }
     ],
-    "license": "Unlicense"
+    "license": "Unlicense",
     "autoload": {
         "psr-4": {
             "google85\\phpmvc\\": "./"
