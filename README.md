@@ -1,4 +1,4 @@
-# php-mvc-core <a href="https://packagist.org/packages/google85/php-mvc-core"><img src="https://img.shields.io/packagist/dt/google85/php-mvc-core" alt="Total Downloads"/></a>
+# php-mvc-core <a href="https://packagist.org/packages/google85/php-mvc-core"><img src="https://img.shields.io/packagist/dt/google85/php-mvc-core?color=brightgreen" alt="Total Downloads"/></a>
 
 PHP MVC core repository, based on TheCodeHolic's video
 
